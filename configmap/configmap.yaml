@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: configmap-example
+data:
+  index.html: "
+  <html>
+    <body>
+      <h1>
+        This text is from configmap
+      </h1>
+    <body>
+  </html>"
