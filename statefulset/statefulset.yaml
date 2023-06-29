@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: sts-example
+spec:
+  replicas: 3
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: stateful
+  serviceName: app
+  updateStrategy:
+    type: OnDelete
+  template:
+    metadata:
+      name: stateful-nginx
+      labels:
+        app: stateful
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:stable-alpine
+        ports:
+        - containerPort: 80
+        volumeMounts:
+        - name: html
+          mountPath: /usr/share/nginx/html
+      - name: content
+        image: alpine:latest
+        command: ["/bin/sh", "-c"]
+        args:
+          - while true; do
+              echo $(hostname)"<br />" >> /html/index.html;
+              sleep 5;
+            done
+        volumeMounts:
+        - name: html
+          mountPath: /html
+      volumes:
+      - name: html
+        emptyDir: {}
