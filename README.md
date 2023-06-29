@@ -3,9 +3,9 @@ This presentation is taken from [Introduction to Kubernetes](https://docs.google
 
 ## Requirements
 
-- [Docker] (https://docs.docker.com/engine/install/)
-- [Minikube] (https://minikube.sigs.k8s.io/docs/start/)
--  kubectl (https://kubernetes.io/docs/tasks/tools/)
+- [Docker](https://docs.docker.com/engine/install/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+-  [kubectl](https://kubernetes.io/docs/tasks/tools/)
 
 OR
 
