@@ -7,7 +7,7 @@ This presentation is taken from [Introduction to Kubernetes](https://docs.google
 - [Minikube](https://minikube.sigs.k8s.io/docs/start/)
 -  [kubectl](https://kubernetes.io/docs/tasks/tools/)
 
-OR 
+OR
 
 Use Cloud Shell in [Google Cloud Console](console.cloud.google.com) . Cloud Shell comes with the required tools pre-installed.
 
