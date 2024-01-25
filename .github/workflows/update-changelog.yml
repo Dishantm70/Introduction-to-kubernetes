@@ -46,13 +46,16 @@ jobs:
           else
             echo "section=$section" >> $GITHUB_OUTPUT
           fi
+      - name: Set environment variable
+        run: |
+          echo "LOG_ENTRY_TEXT=$(date '+%Y-%m-%d') ${{ github.event.pull_request.title }}" >> $GITHUB_ENV
 
       - name: Add entry to CHANGELOG.md
         if: steps.sections.outputs.section != ''
         uses: claudiodekker/changelog-updater@master
         with:
           section: "${{ steps.sections.outputs.section }}"
-          entry-text: "(printf -v date '%(%Y-%m-%d)T' -1) ${{ github.event.pull_request.title }}"
+          entry-text: "${{ env.LOG_ENTRY_TEXT }}"
           entry-link: "${{ github.event.pull_request.html_url }}"
 
       - name: Commit updated CHANGELOG
