@@ -41,8 +41,7 @@ jobs:
           done
 
           if [ -z "$section" ]; then
-            echo "No matching label found for changelog entry, skipping changelog update."
-            exit 0
+            section="Added"
           else
             echo "section=$section" >> $GITHUB_OUTPUT
           fi
