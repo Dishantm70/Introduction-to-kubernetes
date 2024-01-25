@@ -42,9 +42,8 @@ jobs:
 
           if [ -z "$section" ]; then
             section="Added"
-          else
-            echo "section=$section" >> $GITHUB_OUTPUT
           fi
+          echo "section=$section" >> $GITHUB_OUTPUT
       - name: Set environment variable
         run: |
           echo "LOG_ENTRY_TEXT=$(date '+%Y-%m-%d') ${{ github.event.pull_request.title }}" >> $GITHUB_ENV
