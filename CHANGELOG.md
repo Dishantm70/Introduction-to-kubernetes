@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Update README.md ([#6](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/6))
+
+
 ## [1.1.1] - 2023-03-05
 
 ### Added
@@ -49,6 +54,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Identical links assigned in each translation file
 - Duplicate index file for the english version
 
+
 ## [1.1.0] - 2019-02-15
 
 ### Added
@@ -61,6 +67,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Italian translation (#332).
 - Indonesian translation (#336).
+
 
 ## [1.0.0] - 2017-06-20
 
@@ -114,6 +121,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Section about "changelog" vs "CHANGELOG".
 
+
 ## [0.3.0] - 2015-12-03
 
 ### Added
@@ -122,12 +130,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - pt-BR translation from [@tallesl](https://github.com/tallesl).
 - es-ES translation from [@ZeliosAriex](https://github.com/ZeliosAriex).
 
+
 ## [0.2.0] - 2015-10-06
 
 ### Changed
 
 - Remove exclusionary mentions of "open source" since this project can
   benefit both "open" and "closed" source projects equally.
+
 
 ## [0.1.0] - 2015-10-06
 
@@ -140,7 +150,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improve argument against commit logs.
 - Start following [SemVer](https://semver.org) properly.
 
+
 ## [0.0.8] - 2015-02-17
+
+### Fixed
+
+- Fix typos in recent README changes.
+- Update outdated unreleased diff link.
 
 ### Changed
 
@@ -148,10 +164,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Reluctantly stop making fun of Brits only, since most of the world
   writes dates in a strange way.
 
-### Fixed
-
-- Fix typos in recent README changes.
-- Update outdated unreleased diff link.
 
 ## [0.0.7] - 2015-02-16
 
@@ -159,19 +171,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Link, and make it obvious that date format is ISO 8601.
 
+### Fixed
+
+- Fix Markdown links to tag comparison URL with footnote-style links.
+
 ### Changed
 
 - Clarified the section on "Is there a standard change log format?".
 
-### Fixed
-
-- Fix Markdown links to tag comparison URL with footnote-style links.
 
 ## [0.0.6] - 2014-12-12
 
 ### Added
 
 - README section on "yanked" releases.
+
 
 ## [0.0.5] - 2014-08-09
 
@@ -180,6 +194,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Markdown links to version tags on release headings.
 - Unreleased section to gather unreleased changes and encourage note
   keeping prior to releases.
+
 
 ## [0.0.4] - 2014-08-09
 
@@ -201,17 +216,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   missing sections were intentionally left out because they contained no
   notable changes.
 
+
 ## [0.0.3] - 2014-08-09
 
 ### Added
 
 - "Why should I care?" section mentioning The Changelog podcast.
 
+
 ## [0.0.2] - 2014-07-10
 
 ### Added
 
 - Explanation of the recommended reverse chronological release ordering.
+
 
 ## [0.0.1] - 2014-05-31
 
@@ -223,5 +241,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - README now contains answers to common questions about CHANGELOGs.
 - Good examples and basic guidelines, including proper date formatting.
 - Counter-examples: "What makes unicorns cry?".
-
-
