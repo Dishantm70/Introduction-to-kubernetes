@@ -52,7 +52,7 @@ jobs:
         uses: claudiodekker/changelog-updater@master
         with:
           section: "${{ steps.sections.outputs.section }}"
-          entry-text: "${{ github.event.pull_request.title }}"
+          entry-text: "(printf -v date '%(%Y-%m-%d)T' -1) ${{ github.event.pull_request.title }}"
           entry-link: "${{ github.event.pull_request.html_url }}"
 
       - name: Commit updated CHANGELOG
