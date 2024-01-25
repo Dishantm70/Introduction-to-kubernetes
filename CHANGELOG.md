@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - 2024-01-25 Update README.md ([#12](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/12))
 - 2024-01-25 CLOSUP-123 [IAM/SECURITY] Update the license file ([#13](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/13))
+- 2024-01-25 CLOUSUO-123456 Update readme file ([#14](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/14))
 
 ### Fixed
 
