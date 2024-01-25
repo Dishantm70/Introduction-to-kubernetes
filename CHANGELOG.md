@@ -5,12 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## test
 
 ### Added
 
 - Update README.md ([#6](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/6))
+- 2024-01-25 Update README.md ([#8](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/8))
 
+### Fixed
+
+- 2024-01-25 Update README.md ([#7](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/7))
+
+
+## 2024.01
 
 ## [1.1.1] - 2023-03-05
 
