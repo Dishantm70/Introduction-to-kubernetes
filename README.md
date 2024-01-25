@@ -8,5 +8,5 @@ This presentation is taken from [Introduction to Kubernetes](https://docs.google
 -  [kubectl](https://kubernetes.io/docs/tasks/tools/)
 
 OR 
- 
+
 Use Cloud Shell in [Google Cloud Console](console.cloud.google.com) . Cloud Shell comes with the required tools pre-installed.
