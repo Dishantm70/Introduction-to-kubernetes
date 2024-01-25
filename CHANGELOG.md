@@ -10,10 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Update README.md ([#6](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/6))
+- 2024-01-25 Update README.md ([#8](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/8))
 
 ### Fixed
 
 - 2024-01-25 Update README.md ([#7](https://github.com/Dishantm70/Introduction-to-kubernetes/pull/7))
+
 
 ## 2024.01
 
